@@ -1,0 +1,39 @@
+name: Update README metrics
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate GitHub metrics
+        env:
+          GH_TOKEN: ${{ secrets.GH_METRICS_TOKEN }}
+          GITHUB_USERNAME: IagoPL
+        run: python scripts/update_github_metrics.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Actualizar métricas del perfil"
+          git push
