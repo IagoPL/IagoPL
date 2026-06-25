@@ -17,7 +17,7 @@ Desarrollo aplicaciones web, herramientas internas y proyectos orientados a dato
     <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="48" height="48" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="https://iagopl.github.io/notion-connection/" title="Manuales técnicos">
+  <a href="https://iagopl.github.io/Manuales/" title="Manuales técnicos">
     <img src="https://skillicons.dev/icons?i=md&theme=dark" width="48" height="48" alt="Manuales técnicos" />
   </a>
 </p>
@@ -27,7 +27,7 @@ Desarrollo aplicaciones web, herramientas internas y proyectos orientados a dato
   ·
   <a href="https://www.linkedin.com/in/iago-prieto-lamas/">LinkedIn</a>
   ·
-  <a href="https://iagopl.github.io/notion-connection/">Manuales técnicos</a>
+  <a href="https://iagopl.github.io/Manuales/">Manuales técnicos</a>
 </p>
 
 </div>
@@ -180,6 +180,6 @@ Documentación Técnica
 
 * GitHub: [github.com/IagoPL](https://github.com/IagoPL)
 * LinkedIn: [linkedin.com/in/iago-prieto-lamas](https://www.linkedin.com/in/iago-prieto-lamas/)
-* Manuales técnicos: [iagopl.github.io/notion-connection](https://iagopl.github.io/notion-connection/)
+* Manuales técnicos: [iagopl.github.io/notion-connection](https://iagopl.github.io/Manuales/)
 
 ---
