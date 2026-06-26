@@ -149,23 +149,6 @@ Documentación Técnica
 
 ---
 
-## Actividad en GitHub
-
-<!-- GITHUB-METRICS:START -->
-| Métrica | Valor |
-|---|---:|
-| Contribuciones en 2026 | 1209 |
-| Commits | 1170 |
-| Pull Requests | 0 |
-| Issues | 31 |
-| Reviews de código | 1 |
-| Repositorios creados | 6 |
-
-<sub>Datos generados automáticamente desde la API oficial de GitHub.</sub>
-<!-- GITHUB-METRICS:END -->
-
----
-
 ## Resumen visual de actividad
 
 <div align="center">
